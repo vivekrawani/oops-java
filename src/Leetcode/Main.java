@@ -12,5 +12,20 @@ public class Main {
 //        QuickSort quickSort = new QuickSort();
 //        int arr[] = {5, 8, 1, 6, 9, 14, 2};
 //        quickSort.sort(arr, 0, arr.length-1);
+//        String txt =  "abcde";
+//        String txt2 = "aabbccddeeffgghhiiiiii";
+//        String txt3 = "xyzxyzxyzxyz";
+//        Keypad2 k = new Keypad2();
+//        System.out.println(k.minimumPushes(txt2));
+//        System.out.println(k.minimumPushes(txt3));
+//        k.minimumPushes(txt);
+
+        CombinationSum sol = new CombinationSum();
+        int[] arr = {2,3,5};
+//        int[] arr2 = {10,1,2,7,6,1,5}; // 8
+//        var res = sol.combinationSum(arr, 8);
+        int [] arr2 = {2,5,2,1,2};
+        var res2 = sol.combinationSum2(arr2, 5);
+        System.out.println(res2);
     }
 }

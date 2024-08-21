@@ -57,7 +57,7 @@ class DisjointSet {
     }
 }
 
-class Main {
+ class Main {
     public static void main (String[] args) {
         DisjointSet ds = new DisjointSet(7);
         ds.unionBySize(1, 2); 
