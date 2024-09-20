@@ -32,7 +32,12 @@ public class Main {
 //        hmap.put(null,"InterviewBit");
 //        System.out.println(hmap);
 
-        Parent c = new Child();
+        Child c = new Child();
         c.print1();
+//
+//        RV rv = new RV();
+//        rv.stop();
+//        Vehicle.info();
+//        House.info();
     }
 }
